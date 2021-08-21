@@ -1,2 +1,13 @@
-# data.etl.sh.lianjia
-Data crawler for lianjia Shanghai implemented with python3 + Scrapy . //上海链家数据 Scrapy 爬虫
+# 链家爬虫
+### 简介 
+基于 Python Scrapy 框架实现的上海链家网站房源数据爬虫，通过小区信息爬取所有房源和小区信息。
+### 用法
+具体请参考 [Python Scrapy](https://scrapy.org/) 说明。
+
+```scrapy crawl lianjia -o json {即将输出的 json 数据文件名称}```
+
+### 说明
+尊重链家网站，请勿大量访问造成服务器超载，请勿用于商业用途。
+
+### 迭代记录
+2021-08-21 | 优化了针对网站数据元素的定位方式，提高了匹配准确度和健壮性。
